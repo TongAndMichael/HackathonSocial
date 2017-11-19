@@ -14,31 +14,46 @@
 
     <Button
         android:id="@+id/btn_game1"
+        style="@android:style/Widget.Holo.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_welcome"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:text="Game1"
-        android:onClick="onClickGame1"/>
+        android:onClick="onClickGame1"
+        android:text="Game1" />
 
     <Button
         android:id="@+id/btn_Game2"
+        style="@android:style/Widget.Holo.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/btn_game1"
+        android:layout_alignStart="@+id/btn_game1"
         android:layout_below="@+id/btn_game1"
         android:layout_marginTop="61dp"
-        android:text="Game2"
-        android:onClick="onClickGame2"/>
+        android:onClick="onClickGame2"
+        android:text="Game2" />
 
     <Button
         android:id="@+id/btn_post"
+        style="@android:style/Widget.Holo.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="69dp"
-        android:text="Post Something"
         android:layout_below="@+id/btn_Game2"
         android:layout_centerHorizontal="true"
-        android:onClick="onClickPost"/>
+        android:layout_marginTop="69dp"
+        android:onClick="onClickPost"
+        android:text="Post Something" />
+
+    <Button
+        android:id="@+id/btn_leaderboard"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_post"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:text="LeaderBoard"
+        android:onClick="onClickLeaderboard"/>
+
 </RelativeLayout>

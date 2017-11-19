@@ -12,7 +12,8 @@
         android:ems="10"
         android:id="@+id/etUserName"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="47dp" />
+        android:layout_marginTop="47dp"
+        android:hint="username"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -22,7 +23,8 @@
         android:id="@+id/etPassword"
         android:layout_below="@+id/etUserName"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:hint="password"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -46,4 +48,15 @@
         android:layout_marginTop="38dp"
         android:text="New?"
         android:onClick="onClickNew"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:text="I LOVE HACKATHON"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 </RelativeLayout>

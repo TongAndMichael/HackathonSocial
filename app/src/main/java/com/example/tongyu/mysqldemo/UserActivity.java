@@ -48,4 +48,10 @@ public class UserActivity extends AppCompatActivity {
         intent.putExtra("username", username);
         startActivity(intent);
     }
+
+    public void onClickLeaderboard(View v)
+    {
+        Intent intent = new Intent (this, LeaderBoard.class);
+        startActivity(intent);
+    }
 }
